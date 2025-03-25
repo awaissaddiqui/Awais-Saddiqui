@@ -22,7 +22,7 @@ const AchievementPage = () => {
                             />
                         </div>
 
-                        {/* Content of achievements*/}
+                        {/* Content*/}
                         <div className="w-full pt-16 pb-6 px-6 text-center flex-grow">
                             <h2 className="text-lg font-semibold">{item.title}</h2>
                             <p className="mt-4 text-md text-gray-200 text-justify tracking-tight break-words leading-6">
