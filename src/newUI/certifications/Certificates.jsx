@@ -53,11 +53,10 @@ const Certificates = () => {
 
     return (
         <div className="w-full mx-auto p-8 bg-gray-900 text-white  pb-8">
-
+            <h2 className="text-4xl font-bold font-titleFont mb-4 col-span-3 text-center">
+                Certifications
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-                <h2 className="text-4xl font-bold font-titleFont mb-4 col-span-3 text-center">
-                    Certifications
-                </h2>
                 {visibleCertifications.map((cert, index) => (
                     <div key={index} className="border relative border-gray-400 p-5 rounded-lg  shadow-lg">
                         <LiaCertificateSolid className="absolute text-3xl right-0 top-0 text-gray-400 mx-auto" />

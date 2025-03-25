@@ -136,7 +136,7 @@ const Services = () => {
                         <div
                             data-aos="zoom-in-up"
                             id='ai-web'
-                            className="relative group bg-black/25 md:bg-white/5 md:backdrop-blur-sm backdrop-blur-none border border-white/10 text-center shadow-lg rounded-md p-4 transition-transform transform hover:-translate-y-2 hover:shadow-2xl overflow-hidden h-[250px]"
+                            className="relative group bg-black/25 md:bg-white/5 backdrop-blur-none md:backdrop-blur-sm backdrop-blur-none border border-white/10 text-center shadow-lg rounded-md p-4 transition-transform transform hover:-translate-y-2 hover:shadow-2xl overflow-hidden h-[250px]"
                         >    <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-700 transform scale-0 group-hover:scale-100 transition-transform duration-500 origin-bottom-left z-0"></div>
 
                             {/* Content */}
